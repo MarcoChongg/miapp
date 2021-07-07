@@ -1,10 +1,8 @@
 export default{
-    apiKey: "AIzaSyAFkRg3qgdrxybtzeo1r3MV8PpHdw2aX7w",
-    authDomain: "fir-81aeb.firebaseapp.com",
-    projectId: "fir-81aeb",
-    storageBucket: "fir-81aeb.appspot.com",
-    messagingSenderId: "1026896633654",
-    appId: "1:1026896633654:web:3cc402f25b1fd216bfdd97"
-}
-
-//<>
+    apiKey: "AIzaSyBJE9aDoYXFYUYBLMYvtcmcONouhb1VU-4",
+    authDomain: "chat-1975a.firebaseapp.com",
+    projectId: "chat-1975a",
+    storageBucket: "chat-1975a.appspot.com",
+    messagingSenderId: "353036361159",
+    appId: "1:353036361159:web:b548b7e729bd90b6370de2"
+  }

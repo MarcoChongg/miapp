@@ -9,6 +9,10 @@ import { Nosotros } from './components/nosotros';
 import Bygoogle from './components/Bygoogle';
 import { Login } from './components/login';
 import { Recuperar } from './components/Recuperar';
+import { Chat } from './components/chat';
+import { Chat2 } from './components/chat2';
+import { Soporte } from './components/soporte';
+
 
 function miPrimeraFuncion(nombre, apellido){
   
@@ -32,11 +36,14 @@ function App() {
     <Bygoogle/>
       <div>
         <Switch>
+          <Route path = '/inicio' component = {Inicio} />
           <Route path = '/About Us' component = {Nosotros} />
           <Route path = '/Contact Us' component = {Contacto} />
           <Route path = '/Media' component = {Media} />
           <Route path = '/Signin' component = {Signin} />
           <Route path='/recuperar' component= {Recuperar} />
+          <Route path='/Chat2' component= {Chat2} />
+          <Route path='/Soporte' component= {Soporte} />
           <Route path = '/' component = {Login} />
         </Switch>
       </div>

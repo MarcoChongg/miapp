@@ -22,6 +22,12 @@ export const NavBar =  () => (
             <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/Signin">Sign In</Link>
             </li>
+            <li className="nav-item navchat">
+            <Link className="nav-link active" aria-current="page" to="/chat2">Chat</Link>
+            </li>
+            <li className="nav-item navchat">
+            <Link className="nav-link active" aria-current="page" to="/soporte">Soporte</Link>
+            </li>
           </div>
         </div>
       </nav>

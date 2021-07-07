@@ -33,7 +33,7 @@ export const Signin =  () => {
                         <input type='password' className='form-control' onChange={e => setRepass(e.target.value)} value={repass} />
                     </div>
 
-                        <button type='submit' className='btn btn-primary'>SIGN IN</button>
+                    <button type='submit' className='btn btn-primary'>SIGN IN</button>
 
                 </form>
 
@@ -55,10 +55,9 @@ function addUser(user,password){
 }
 function validatePass(password,repassword){
     if(password===repassword){
-        
         return true;
     } else{
-        alert("no match");
+        alert("passwords do not match");
         return false;
     }
 }
